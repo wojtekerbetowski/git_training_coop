@@ -1,10 +1,13 @@
 import frytki;
 import cola;
 
-
+let meal = new Meal();
 let f = frytki.getFrytki();
 let c = cola.getCola();
 
 c.setGratis(true);
 
+
+meal.add(f);
+meal.add(c);
 
