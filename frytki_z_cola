@@ -1,0 +1,10 @@
+import frytki;
+import cola;
+
+
+let f = frytki.getFrytki();
+let c = cola.getCola();
+
+c.setGratis(true);
+
+
